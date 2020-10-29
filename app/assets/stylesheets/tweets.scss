@@ -1,3 +1,48 @@
 // Place all the styles related to the tweets controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.left-col {
+  background-color: white;
+  border-radius: 10px;
+  height: 50vh;
+}
+
+.center-col {
+  background-color: white;
+  border-radius: 10px;
+  height: 100vh;
+}
+
+.right-col {
+  background-color: white;
+  border-radius: 10px;
+  height: 50vh;
+}
+
+.nickname {
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.content {
+  padding: 10px;
+}
+
+.title {
+  padding: 15px;
+}
+
+.tweet-btn {
+  position: absolute;
+  bottom: 100px;
+  right: 40px;
+  color: white;
+  background-color: #05afff;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+a:visited {
+  color: white!important;
+}
