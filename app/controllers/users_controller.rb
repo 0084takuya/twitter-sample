@@ -12,6 +12,10 @@ class UsersController < ApplicationController
   def show
   end
 
+  def sample
+    p 'puts'
+  end
+
   # GET /users/new
   def new
     @user = User.new
