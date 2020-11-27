@@ -13,7 +13,7 @@ class UsersController < ApplicationController
   end
 
   def sample
-    p 'puts'
+    p 'sample'
   end
 
   # GET /users/new
